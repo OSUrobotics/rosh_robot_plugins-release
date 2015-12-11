@@ -1,0 +1,16 @@
+ros-jade-rosh-robot-plugins (1.0.2-0vivid) vivid; urgency=high
+
+  * fix maintainer
+  * Remove "rosh" run depend
+    Fixes wiki package header for this and rosh
+  * Contributors: Dan Lazewatsky
+
+ -- Dan Lazewatsky <dan@lazewatsky.com>  Sun, 17 Aug 2014 05:00:00 -0000
+
+ros-jade-rosh-robot-plugins (1.0.1-0vivid) vivid; urgency=high
+
+  * catkinizing
+
+ -- Dan Lazewatsky <dan@lazewatsky.com>  Thu, 20 Mar 2014 05:00:00 -0000
+
+
