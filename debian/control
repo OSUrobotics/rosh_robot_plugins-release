@@ -1,0 +1,12 @@
+Source: ros-jade-rosh-robot
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://ros.org/wiki/rosh_robot
+Standards-Version: 3.9.2
+
+Package: ros-jade-rosh-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-rosh, ros-jade-rosh-common, ros-jade-rosh-geometry
+Description: ROSH meta-plugin for the ROS 'robot' variant.

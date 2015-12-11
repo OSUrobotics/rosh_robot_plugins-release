@@ -1,0 +1,13 @@
+ros-jade-rosh-robot (1.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Dan Lazewatsky <dan@lazewatsky.com>  Sun, 17 Aug 2014 05:00:00 -0000
+
+ros-jade-rosh-robot (1.0.1-0trusty) trusty; urgency=high
+
+  * catkinizing
+
+ -- Dan Lazewatsky <dan@lazewatsky.com>  Thu, 20 Mar 2014 05:00:00 -0000
+
+
