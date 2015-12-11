@@ -1,0 +1,12 @@
+Source: ros-jade-rosh-geometry
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://ros.org/wiki/rosh_geometry
+Standards-Version: 3.9.2
+
+Package: ros-jade-rosh-geometry
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-geometry-msgs, ros-jade-rosh, ros-jade-roslib, ros-jade-rospy, ros-jade-tf
+Description: ROSH plugin for the geometry stack, including tf.
