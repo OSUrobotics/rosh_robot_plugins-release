@@ -1,0 +1,12 @@
+Source: ros-jade-rosh-common
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-nav-msgs, ros-jade-sensor-msgs, ros-jade-std-msgs
+Homepage: http://ros.org/wiki/rosh_common
+Standards-Version: 3.9.2
+
+Package: ros-jade-rosh-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-actionlib, ros-jade-nav-msgs, ros-jade-rosh, ros-jade-roslib, ros-jade-rosmsg, ros-jade-rospy, ros-jade-rostopic, ros-jade-sensor-msgs, ros-jade-std-msgs
+Description: ROSH plugin for packages in the common stack
